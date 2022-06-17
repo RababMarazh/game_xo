@@ -142,7 +142,7 @@ class Game {
     
     else if ( player.playerX.contains(2) &&player.playerX.contains(4)  && emptyCells.contains(6)) {index=6;}
     else if ( player.playerX.contains(2) &&player.playerX.contains(6)  && emptyCells.contains(4)) {index=4;}
-    else if ( player.playerX.contains(2) &&player.playerX.contains(6)  && emptyCells.contains(2)) {index=2;}
+    else if ( player.playerX.contains(4) &&player.playerX.contains(6)  && emptyCells.contains(2)) {index=2;}
 
 
   else
