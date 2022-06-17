@@ -40,7 +40,7 @@ class Game {
    String winner='';
    
    if (
-     player.playerX.containsAll(1,1,1)||
+     player.playerX.containsAll(0,1,2)||
      player.playerX.containsAll(3,4,5)||
      player.playerX.containsAll(6,7,8)||
      player.playerX.containsAll(0,3,6)||
